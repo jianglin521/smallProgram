@@ -5,5 +5,3 @@
 
 ## 本代码只供学员学习使用，请勿用于其他商业用途。
 
-## 想添加小程序技术群，可以添加下方小助手
-![Alt text](http://demos.pxuexiao.com/web_css/img/xigua_net.jpeg)
