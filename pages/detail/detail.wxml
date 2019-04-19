@@ -1,2 +1,4 @@
 <!--pages/detail/detail.wxml-->
-<text>pages/detail/detail.wxml</text>
+<view class='detail-titile'>
+    我是测试详情页面
+</view>

@@ -6,13 +6,14 @@
     </swiper-item>
   </block>
 </swiper>
-
+<!-- wx:for="{{proList}}" -->
 <view class='items-list'>
-  <view class='pro-item' wx:for="{{proList}}" bindtap='toDetail' data-index='{{index}}'>
-    <image class='pro-logo' src='{{item.img}}'></image>
+  <view class='pro-item'  bindtap='toDetail' wx:for="{{10}}"   data-index='{{index}}'>
+    <image class='pro-logo' src='/images/pro_01.jpg'></image>
     <view class='pro-body'>
-      <view class='pro-tile'>{{item.title}}</view>
-      <text class='pro-desc'>{{item.shortDesc}}</text>
+      <view class='pro-tile'>测试标题</view>
+      <text class='pro-desc'>测试文本内容
+      测试文本内容 </text>
       <view class='pro-footer'>
         <image class="btn-detail" src='/images/btn_detail.png'></image>
         <button open-type="contact" class="btn-ask"><image src='/images/btn_ask.png' /></button>

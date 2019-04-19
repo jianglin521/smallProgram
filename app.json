@@ -8,7 +8,7 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#2e5e86",
-    "navigationBarTitleText": "信贷DEMO",
+    "navigationBarTitleText": "测试小程序",
     "navigationBarTextStyle":"white"
   },
   "tabBar": {
@@ -21,7 +21,7 @@
     },
     {
       "pagePath": "pages/join/join",
-      "text": "加入",
+      "text": "关于",
       "iconPath": "images/ic_join_normal.png",
       "selectedIconPath": "images/ic_join_pressed.png"
     }]

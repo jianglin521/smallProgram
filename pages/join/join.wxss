@@ -4,7 +4,7 @@ page{
 .banner{
   display: block;
   width: 100%;
-  height: 340rpx;
+  height: 450rpx;
 }
 .block{
   background: #fff;

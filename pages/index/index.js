@@ -4,13 +4,13 @@ const app = getApp()
 
 Page({
   data: {
-    imgUrls: [
+    imgUrls: [  
       '/images/swiper01.jpg',
       '/images/swiper02.jpg',
       '/images/swiper03.jpg',
     ],
     indicatorDots: false,
-    autoplay: false,
+    autoplay: true,
     interval: 5000,
     duration: 1000,
     proList: null,
@@ -25,8 +25,9 @@ Page({
     console.log(e);
     var index = e.currentTarget.dataset.index;
     console.log(index);
-    var proList = this.data.proList;
-    var title = proList[index].title;
+    // var proList = this.data.proList;
+    // var title = proList[index].title;
+    var title = "测试详情";
     wx.setStorageSync('title', title);
     wx.navigateTo({
       url: '/pages/detail/detail',
